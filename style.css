@@ -44,7 +44,7 @@ window#waybar {
 #cpu,
 #memory,
 #backlight,
-#custom/power,
+#custom-power,
 #tray {
     padding: 0 14px;
     margin: 4px 2px;
@@ -52,12 +52,12 @@ window#waybar {
     background: rgba(255, 255, 255, 0.05);
 }
 
-#custom/power {
+#custom-power {
     color: #f04040;
     padding-right: 18px;
 }
 
-#custom/power:hover {
+#custom-power:hover {
     background: #f04040;
     color: #ffffff;
 }
