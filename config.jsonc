@@ -34,12 +34,12 @@
     },
     "custom/steam": {
         "format": "󰓓",
-        "on-click": "steam",
+        "on-click": "omarchy-launch-steam",
         "tooltip": false
     },
     "custom/discord": {
         "format": "󰙯",
-        "on-click": "omarchy-launch-or-focus-webapp Discord",
+        "on-click": "omarchy-launch-discord",
         "tooltip": false
     },
 
