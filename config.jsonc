@@ -2,9 +2,9 @@
     "layer": "top",
     "height": 30,
     "spacing": 4,
-    "modules-left": ["hyprland/workspaces", "cpu", "memory"],
-    "modules-center": ["group/launchers", "clock"],
-    "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery", "custom/power", "tray"],
+    "modules-left": ["hyprland/workspaces", "group/launchers"],
+    "modules-center": ["clock"],
+    "modules-right": ["cpu", "memory", "backlight", "pulseaudio", "bluetooth", "network", "battery", "custom/power", "tray"],
 
     "group/launchers": {
         "orientation": "horizontal",
@@ -39,7 +39,7 @@
     },
     "custom/discord": {
         "format": "󰙯",
-        "on-click": "discord",
+        "on-click": "omarchy-launch-or-focus-webapp Discord",
         "tooltip": false
     },
 
@@ -83,8 +83,7 @@
     },
 
     "clock": {
-        "format": "{:%I:%M %p}",
-        "format-alt": "󰃭 {:%A, %B %d, %Y}",
+        "format": "{:%A, %B %d, %Y | %I:%M %p}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode"          : "month",
